@@ -1,0 +1,28 @@
+.ChatStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: deepskyblue;
+}
+.barChats {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+}
+.chat {
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgb(8, 152, 201);
+    background-color: rgb(8, 152, 201);
+    margin: 0 3px;
+    cursor: pointer;
+}
+.cuadro {
+    width: 200px;
+    height: 300px;
+    border: 1px solid white;
+    background-color: white;
+}

@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import CardHoverEffect from './components/CardHoverEffect/CardHoverEffect';
+import ChatStyle from './components/ChatStyle/ChatStyle';
+import Checkbox from './components/Checkbox/Checkbox';
+import CircularNavigation from './components/CircularNavigation/CircularNavigation';
+import CircularProgressBar from './components/CircularProgressBar/CircularProgressBar';
+import Loading from './components/Loading/Loading';
+import LoginSignUp from './components/LoginSignUp/LoginSignUp';
+import MagicNavigationMenu from './components/MagicNavigationMenu/MagicNavigationMenu';
+import MagicNavigationMenu2 from './components/MagicNavigationMenu2/MagicNavigationMenu2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{display: 'flex'}}>
+      <MagicNavigationMenu />
+      <MagicNavigationMenu2 />
+      </div>
+      
+      <CardHoverEffect />
+      <CircularNavigation />
+      <LoginSignUp />
+      <Checkbox />
+      <CircularProgressBar />
+      <Loading />
     </div>
   );
 }
